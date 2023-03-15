@@ -1,0 +1,600 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo-img {
+  width: 260px;
+  height: 95px;
+}
+
+
+#main_sec {
+  margin-top: 181px;
+}
+
+#main_sec h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 55px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 46px;
+}
+
+#main_sec p {
+  max-width: 1074px;
+  font-family: 'Figtree', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 37px;
+  text-align: center;
+  color: #333333;
+  margin: auto;
+  margin-bottom: 56px;
+}
+
+#sec1 {
+  max-width: 1217px;
+  margin-bottom: 37px;
+}
+
+#sec1 p {
+  margin-top: 106px;
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 37px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 0px;
+}
+
+form.input-group {
+  max-width: 528px;
+  height: 48px;
+}
+
+form .form-control:focus {
+  box-shadow: none;
+  background: #F9F9F9;
+}
+
+form .form-control {
+  background: #F9F9F9;
+  border-width: 2px 0px 2px 2px;
+  border-style: solid;
+  border-color: #DBE5F0;
+  border-radius: 5px 0px 0px 5px;
+  padding: 13px 20px 12px;
+}
+
+::placeholder {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+form.input-group button.big-btn {
+  width: 210px;
+}
+
+form.input-group button {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #1170FF;
+  border-radius: 0px 5px 5px 0px;
+  padding: 13px 11px 12px 28px;
+}
+
+#card {
+  margin-top: 67px;
+  margin-bottom: 98px;
+  row-gap: 32px;
+}
+
+#card .col-lg-6 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.two-card {
+  background: #F9F9F9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 38px 35px 42px;
+  height: 100%;
+}
+
+.two-card h5 {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #1170FF;
+}
+
+.two-card h6 {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 37px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 0%;
+}
+
+#current_data .row {
+  row-gap: 32px;
+  padding-bottom: 46px;
+}
+
+#current_data h5 {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  color: #1170FF;
+}
+
+#current_data h4 {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
+
+#current_data p {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 37px;
+  color: #333333;
+  margin-bottom: 0px;
+}
+
+#current_data ul {
+  padding-left: 45px;
+  max-width: 507px;
+}
+
+#back_color {
+  background: #DBE5F0;
+}
+
+#back_color .container {
+  padding-top: 46px;
+}
+
+@media (max-width: 991.98px) {
+  #current_data ul {
+    padding-left: 45px;
+    max-width: 100%;
+  }
+}
+
+#lenders_sec {
+  margin-top: 78px;
+}
+
+#lenders_sec h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 55px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 87px;
+}
+
+#lenders_sec h5 {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  color: #1170FF;
+  margin-bottom: 0px;
+}
+
+#lenders_sec .row {
+  row-gap: 35px;
+}
+
+.lenders_card {
+  padding-top: 35px;
+}
+
+.lenders_card img {
+  padding: 19px;
+}
+
+.lenders_card h6 {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  margin-bottom: 18px;
+}
+
+.lenders_card p {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 37px;
+  color: #333333;
+  margin-bottom: 0%;
+}
+
+#contact {
+  margin-top: 161px;
+  margin-bottom: 108px;
+}
+
+#contact h5 {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 11px;
+}
+
+#contact p {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 37px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 100px;
+}
+
+#sign_up {
+  border: 1px solid #DBE5F0;
+  padding: 37px 53px 29px;
+}
+
+#sign_up h5 {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #1170FF;
+}
+
+#sign_up form {
+  max-width: 100%;
+  margin-bottom: 13px;
+}
+
+#sign_up a {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #DBE5F0;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 55px;
+}
+
+footer h5 {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 17px;
+}
+
+footer p {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+footer a {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #333333;
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 23px;
+  display: block;
+}
+
+.mt-97 {
+  margin-top: 97px;
+}
+
+@media (max-width: 575.98px) {
+
+  .logo-img {
+    width: 200px;
+    height: 60px;
+  }
+
+
+  #main_sec {
+    margin-top: 10px;
+  }
+
+  #main_sec h1 {
+    font-size: 24px;
+    line-height: 25px;
+    margin-bottom: 26px;
+  }
+
+  #main_sec p {
+    max-width: 500px;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+
+  #sec1 {
+    max-width: 1217px;
+    margin-bottom: 37px;
+  }
+
+  #sec1 p {
+    max-width: 500px;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+  }
+
+
+  form.input-group {
+    max-width: 328px;
+    height: 40px;
+  }
+
+  form .form-control {
+    padding: 10px 13px 8px;
+  }
+
+  ::placeholder {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  form.input-group button.big-btn {
+    width: 150px;
+  }
+
+  form.input-group button {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 13px 8px;
+  }
+
+  #img_row img {
+    width: 190px;
+    height: 65px;
+  }
+
+  #img_row img:nth-of-type(4) {
+    height: 140px;
+  }
+
+
+  #card {
+    margin-top: 27px;
+    margin-bottom: 48px;
+  }
+
+  #card .col-lg-6 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .two-card {
+    padding: 28px 22px 32px;
+  }
+
+  .two-card h5 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .two-card h6 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #current_data .row {
+    row-gap: 0px;
+    padding-bottom: 15px;
+  }
+
+  #current_data h5 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  #current_data h4 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+  }
+
+  #current_data p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #current_data ul {
+    padding-left: 45px;
+    max-width: 507px;
+  }
+
+  #back_color {
+    background: #DBE5F0;
+  }
+
+  #back_color .container {
+    padding-top: 26px;
+  }
+
+  #lenders_sec {
+    margin-top: 27px;
+  }
+
+  #lenders_sec h1 {
+    font-size: 24px;
+    line-height: 25px;
+    margin-bottom: 27px;
+  }
+
+  #lenders_sec h5 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  #lenders_sec .row {
+    row-gap: 0px;
+  }
+
+  .lenders_card {
+    padding: 15px;
+  }
+
+  .lenders_card img {
+    padding: 19px;
+    width: 80px;
+  }
+
+  .lenders_card h6 {
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 18px;
+  }
+
+  .lenders_card p {
+    font-size: 18px;
+    line-height: 17px;
+  }
+
+
+  #contact {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  #contact h5 {
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 11px;
+  }
+
+  #contact p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+
+
+  #sign_up {
+    padding: 17px 23px 29px;
+  }
+
+  #sign_up h5 {
+    text-align: center;
+    font-size: 21px;
+    line-height: 35px;
+  }
+
+  #sign_up form {
+    max-width: 328px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 13px;
+  }
+
+  #sign_up a {
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 42px;
+  }
+
+  footer {
+    margin-top: 25px;
+  }
+
+  footer h5 {
+    font-size: 15px;
+    line-height: 10px;
+    margin-bottom: 17px;
+  }
+
+  footer p {
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 22px;
+  }
+
+  footer a {
+    font-size: 17px;
+    line-height: 19px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .mt-97 {
+    margin-top: 97px;
+  }
+
+}
