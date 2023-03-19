@@ -361,40 +361,30 @@ line-height: 34px;
 
 @media (max-width: 575.98px) {
 
-  .logo-img {
-    width: 200px;
-    height: 60px;
-  }
-
-  #main_sec {
-    margin-top: 10px;
-  }
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
   #main_sec h1 {
     font-size: 24px;
     line-height: 25px;
-    margin-bottom: 26px;
   }
 
   #main_sec p {
     max-width: 500px;
     font-size: 15px;
     line-height: 22px;
-    margin-bottom: 16px;
   }
 
   #sec1 {
     max-width: 1217px;
-    margin-top: 37px;
-    margin-bottom: 37px;
   }
 
   #sec1 p {
     max-width: 500px;
     font-size: 15px;
     line-height: 22px;
-    margin-top: 30px;
-    margin-bottom: 16px;
   }
 
 
@@ -423,18 +413,15 @@ line-height: 34px;
   }
 
   #img_row img {
-    width: 190px;
+    object-fit: none;
     height: 65px;
   }
 
-  #img_row img:nth-of-type(4) {
-    height: 140px;
-  }
+  #img_row div:nth-of-type(4) img {
+    width: 200px;
+    height: 112px;
+    object-fit: cover;
 
-
-  #card {
-    margin-top: 27px;
-    margin-bottom: 48px;
   }
 
   #card .col-lg-6 {
@@ -458,7 +445,6 @@ line-height: 34px;
 
   #current_data .row {
     row-gap: 0px;
-    padding-bottom: 15px;
   }
 
   #current_data h5 {
@@ -488,13 +474,6 @@ line-height: 34px;
     background: #DBE5F0;
   }
 
-  #back_color .container {
-    padding-top: 26px;
-  }
-
-  #lenders_sec {
-    margin-top: 27px;
-  }
 
   #lenders_sec h1 {
     font-size: 24px;
@@ -529,12 +508,6 @@ line-height: 34px;
   .lenders_card p {
     font-size: 18px;
     line-height: 17px;
-  }
-
-
-  #contact {
-    margin-top: 30px;
-    margin-bottom: 40px;
   }
 
   #contact h5 {
@@ -600,5 +573,4 @@ line-height: 34px;
   .mt-97 {
     margin-top: 97px;
   }
-
 }
